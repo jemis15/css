@@ -1,0 +1,54 @@
+/*variables*/
+:root{
+    --color: green;
+    --color-title: red;
+    --color-subtitle: blue;
+}
+
+/*p{
+    color: var(--color);
+}*/
+
+/*selectores agrupados*/
+.titulo,
+.descripcion{
+    font-weight: bold;
+}
+
+/*selectores descendientes*/
+/*ojo no se recomienda usarlos salvo que tu vida esta en riesgo*/
+
+/*selectores hijos directos ">"*/
+
+/*selector hermano siguiente "+"*/
+.titulo + .descripcion{
+    color: var(--color-title);
+}
+.subtitulo + .descripcion{
+    color: var(--color-subtitle);
+}
+
+/*selector hermanos sigientes "~"*/
+.enabled{
+    display: none;
+}
+.check:checked ~ .enabled{
+    display: block;
+}
+.check:checked ~ .disabled{
+    display: none
+}
+
+/*selectores de atributos*/
+[id="selector-atributo"]{
+    color: var(--color);
+}
+
+/*selector comienza con ?*/
+/*ejemplo [hrf^="palabra clave"] */
+
+/*selector termina con ?*/
+/*ejemplo [hrf$="palabra clave"] */
+
+/*selector que contienen ?*/
+/*ejemplo [hrf*="palabra clave"] */
