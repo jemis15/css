@@ -5,6 +5,13 @@
     --color-subtitle: blue;
 }
 
+/*
+buena practica
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+*/
+
 /*p{
     color: var(--color);
 }*/
@@ -65,4 +72,46 @@ id = 100
 /*
 inherit = hereda estilos del padre
 initial = no hereda del padre 
+*/
+
+/*colapzado de margenes verticales*/
+/*
+solucion
+al contenedor le agregamos pading
+buenas practicas al los margin todo a ul lado ejem margin botton todo.
+*/
+
+/*.box{
+    width: 400px;
+    height: 300px;
+    background: red;
+    margin: 100px auto;
+    border: 50px dotted black;
+}*/
+
+/*prectica con border radios dibujando el logo de youtube*/
+
+.box{
+    width: 500px;
+    height: 350px;
+    background: red;
+    margin: 100px auto;
+    /* border-radios: x x x x/ y y y y */
+}
+
+/*
+box-shadow: h-offset v-offset blur spread color ! inset
+x y borroso expancion color ! sonbra por dentro
+*/
+
+
+
+/*background
+gackground-color: color
+backgruond-image: url()
+backgruond-repeat: no-repeat 
+backgruond-clip: que parte de la caja es cubierta por el fondo
+*content-box , pàdding-box, border-box
+backgroung-origin; de donde empieza el fondo 
+
 */
