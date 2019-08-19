@@ -113,5 +113,14 @@ backgruond-repeat: no-repeat
 backgruond-clip: que parte de la caja es cubierta por el fondo
 *content-box , pàdding-box, border-box
 backgroung-origin; de donde empieza el fondo 
+backgroun-size: contain ! cover
+background-position: botton 20px right  ***** osea botton right luego 20px para arriba
+background-attachament: fixed;
 
+shordhand
+backgroud: fondo 1, fondo 2, stc  ***** position / size *** lo demas no importa
+
+unidades em y rem
+em => el tamaño de fuente del contexto
+rem => el tamaño de fuente root
 */
