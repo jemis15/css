@@ -124,3 +124,67 @@ unidades em y rem
 em => el tamaño de fuente del contexto
 rem => el tamaño de fuente root
 */
+
+/*
+text-aling
+line-height
+vertical align
+*/
+/*text-decoration
+text-decoration-line -> line-through
+text-decoration-color -> red
+text-decoration-style -> dashed
+*/
+/*text-shadow -> igual que box-shadow solo que no tienes expancion*/
+
+/*white spacing*/
+/*
+white-spacing: pre; respeta los saltos de linea y espacios
+nowrap no salta de linea
+pre-wrap salta de linea y conserva espacios
+pre-line salta de linea y noconserva spacios
+*/
+
+/*
+desbordamiento
+word-break: break-all se recomienda ulsarlo
+word-wrap: break-word es similar al otro
+
+overflow: hidden
+text-overflow: ellipsis; los dos tiene q estar para q funcione
+
+text vertical y text rendering
+writing-mode: vertical-lr
+text-orientation: upright
+
+text-tranform -> su utilidad uniformizar
+*/
+
+
+
+
+/*fuentes
+sand serif son mas chebres en paguinas web
+serif facil de leer
+display estan echo para titulos o letreros grandes, ojo no para parrafos muy largos
+*/
+
+/*
+seudaclases
+:link
+:visit
+:hover
+:active
+****deven estar en orden
+
+:nt-child(3) tercero
+:nt-child(3n) cada 3 en 3
+:nt-child(3n + 1)
+:nt-child(odd) par
+:nt-child(even) inpar
+:first-child
+:last-child
+
+:not elemento que no quieres q se apliken estilos
+:epmty elementos vacios
+*/
